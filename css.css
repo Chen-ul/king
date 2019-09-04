@@ -1,0 +1,101 @@
+body{
+    background-image:url(photo2.jpg );
+    align-content:center;
+    text-align:center;
+}
+.tupian1{
+    width: 300px;
+    height: 250px;
+    align-self: center;
+    border-width: 10px;
+    border-color: greenyellow;
+    border-radius: 10px;
+    border-style: solid;
+}
+.photo3{
+    width: 200px;
+    height: 150px;
+    position: fixed;
+    right: 20px;
+    top: 320px;
+    z-index: 2;
+}
+.photo4{
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    left: 20px;
+    top: 320px;
+    z-index: 1;
+}
+.one{
+    font-family:Great Vibes;
+    font-size: 80px;
+    text-shadow:0 0 1px #999, 
+    1px 1px 2px #888, 
+    2px 2px 2px #777, 
+    3px 3px 2px #666, 
+    4px 4px 2px #555, 
+    5px 5px 2px #333;
+    cursor: cell;
+}
+.two{
+    font-family: Oleo Script;
+    color: blue;
+}
+.three{
+    width: 100%;
+    font-family:Great Vibes;
+    font-style:italic;
+    font-weight:bold;
+    outline:solid;
+    outline-color: darkorchid;
+    outline-width: 1px;
+    outline-style: double;
+}
+.biaoge{
+    color: pink;
+    margin-left: 500px;
+}
+.biaoti1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: x-large;
+}
+#bj{
+    color:black;
+}
+.baidu1{
+    color: pink;
+    text-decoration: none;
+    float: left;
+    clear: both;
+    margin-left: 550px;
+    margin-top: 20px;
+}
+.baidu2{
+    width: 200px;
+    height: 20px;
+}
+.kongge{
+    width: 200px;
+    height: 20px;
+}
+a:link{
+    color:black;
+    background-color: blueviolet;
+}
+a:visited{
+    color: darkblue;
+    background-color: rgb(50, 158, 113);
+}
+a:hover{
+    color: firebrick;
+}
+a:active{
+    color: indigo;
+}
+.mo{
+    visibility: hidden;
+    cursor: default;
+}
